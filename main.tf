@@ -25,7 +25,7 @@ provider "azurerm" {
 
 
 # Create a resource group
-resource "azurerm_resource_group" "example" {
-  name     = "example-resources-ter-2"
+resource "azurerm_resource_group" "example-3" {
+  name     = "example-resources-ter-3"
   location = "East US"
 }
