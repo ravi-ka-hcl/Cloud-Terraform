@@ -7,6 +7,18 @@ terraform {
   }
 }
 
+terraform { 
+  cloud { 
+    
+    organization = "myvcpDemo" 
+
+    workspaces { 
+      name = "API-githubTerracloud" 
+    } 
+  } 
+}
+
+
 provider "azurerm" {
   features {}
 }
@@ -14,6 +26,6 @@ provider "azurerm" {
 
 # Create a resource group
 resource "azurerm_resource_group" "example" {
-  name     = "example-resources-eom"
+  name     = "example-resources-ter"
   location = "East US"
 }
