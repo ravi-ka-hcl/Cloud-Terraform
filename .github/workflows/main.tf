@@ -7,6 +7,12 @@ terraform {
   }
 }
 
+Cloud {
+  Organization = "myvcpDemo"
+  workspaces {
+    name = "github-AzureTerraform"
+}
+
 provider "azurerm" {
   features {}
 }
