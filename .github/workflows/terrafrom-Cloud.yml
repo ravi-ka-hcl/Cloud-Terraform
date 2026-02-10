@@ -6,6 +6,10 @@ on:
   push:
     branches: ["main"]
 
+permissions:
+  id-token: write   # REQUIRED for OIDC
+  contents: read    # Required to checkout co
+
 jobs:
   terraform:
     runs-on: ubuntu-latest
