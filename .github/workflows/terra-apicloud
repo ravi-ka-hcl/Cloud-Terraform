@@ -1,5 +1,5 @@
 
-name: Terraform Cloud Deployment
+name: Terraform Cloud Deployment-terra-apicloud
 
 on:
   workflow_dispatch:
