@@ -3,8 +3,8 @@ name: Terraform Cloud Deployment
 
 on:
   workflow_dispatch:
-  #push:
-   # branches: ["main"]
+  #ush:
+    branches: ["main"]
 
 
 jobs:
